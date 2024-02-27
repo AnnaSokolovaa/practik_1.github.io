@@ -1,0 +1,67 @@
+.Smart_Camera{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    color: $dark-color;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.prosto_fotka{
+    max-width: 1200px;
+    margin:0 auto;
+    width: 1064px;
+    height: 632px;
+    margin-left: 70px;
+}
+%texty_girny{
+    font-weight: 700;
+    color: $dark-color;
+    line-height: 30px;
+    font-size: 24px;
+    padding-top: 270px;
+}
+%texty_pod_girny{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: $menee-dark-color;
+}
+%texty_pod_pod_girny{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: $dark-color;
+}
+.div_blue{
+    background-color: #D0E8EA;
+    height: 497px;
+    width: 1200px;
+    margin-top: -250px;
+}
+.Keeps_up_with{
+    @extend %texty_girny;
+    margin-left: 160px;
+}
+.Smart_Camera_automatically{
+    margin-left: 160px;
+    @extend %texty_pod_girny;
+}
+.learn_moree{
+    margin-left: 160px;
+    @extend %texty_pod_pod_girny;
+}
+.Keeps_everyone_in{
+    @extend %texty_girny;
+    margin-left: 600px;
+    margin-top: -440px;
+}
+.As_more_people_enter{
+    margin-left: 600px;
+    @extend %texty_pod_girny;
+    margin-top: 19px;
+}
+.learn_moree_2{
+    margin-top: 25px;
+    margin-left: 600px;
+    @extend %texty_pod_pod_girny;
+}

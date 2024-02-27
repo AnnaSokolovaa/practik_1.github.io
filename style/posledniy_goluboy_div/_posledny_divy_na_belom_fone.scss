@@ -1,0 +1,117 @@
+%vid_diva{
+    width: 270px;
+    height: 510px;
+    background-color: #F7F7F7;
+    margin-top: 60px;
+}
+%text_zagolovok{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: $dark-color;
+}
+%text_pod_zagolovok{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+%dollar_vid{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: $dark-color;
+}
+%ceny{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: $dark-color;
+}
+%foto_reklamy{
+    width: 190px;
+    height: 220px;
+}
+%button_Buy_Now{
+    width: 108px;
+    height: 46px;
+    line-height: 20px;
+    color: $bely;
+    cursor: pointer;
+    background-color: #1877F2;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 40%;
+}
+%text_pod_button{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.malenky_div_1{
+    @extend %vid_diva;
+    margin-left: 30px;
+}
+.Portal_TV{
+    @extend %text_zagolovok;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.dollor_1{
+    @extend %dollar_vid;
+    margin-left: 220px;
+    margin-top: -40px;
+}
+.cena_1{
+    @extend %ceny;
+    margin-left: 230px;
+    margin-top: -25px;
+}
+.reklama_1{
+    margin-left: 40px;
+    margin-top: -10px;
+}
+.Smart_video_calling{
+    @extend %text_pod_zagolovok;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.button_Buy_Now_1{
+    @extend %button_Buy_Now;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.text_pod_button_1{
+    @extend %text_pod_button;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.malenky_div_2{
+    @extend %vid_diva;
+    margin-left:320px ;
+    margin-top: -530px;
+}
+.malenky_div_3{
+    @extend %vid_diva;
+    margin-left:610px ;
+    margin-top: -530px;
+}
+.malenky_div_4{
+    @extend %vid_diva;
+    margin-left:900px ;
+    margin-top: -530px;
+}
+.Compare_Products{
+    width: 198px;
+    height: 46px;
+    line-height: 20px;
+    color: $dark-color;
+    cursor: pointer;
+    background-color:$bely;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 40%;
+    margin-left: 500px;
+    margin-top: 40px;
+}

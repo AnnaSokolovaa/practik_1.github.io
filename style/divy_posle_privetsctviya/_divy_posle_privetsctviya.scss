@@ -1,0 +1,105 @@
+%messedg {
+    width: 280px;
+    height: 560px;
+    margin-top: 70px;
+}
+%messedg_text_zagolovok{
+    margin-top: -130px;
+    color: $bely;
+    font-weight: 700;
+    font-size: 24px;
+}
+%messedg_text_pod_zagolovok{
+    margin-top: -10px;
+    color: $bely;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+%messedg_text_pod_pod_zagolovok{
+    margin-top: -10px;
+    color: $bely;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.pervy_div{
+    margin-left: -70px;
+    margin-top: 20px;
+}
+.vtoroy_div{
+    margin-left: 230px;
+    margin-top: -620px;
+}
+.tretye_div{
+    margin-left: 530px;
+    margin-top: -620px;
+}
+.chetverty_div{
+    margin-left: 830px;
+    margin-top: -620px;
+}
+.pervoe_foto{
+    @extend %messedg; 
+    margin-left: 80px;
+}
+.text_zagolovok{
+    @extend %messedg_text_zagolovok;
+    margin-left: 170px;
+}
+.messedg_text_pod_zagolovok{
+    @extend %messedg_text_pod_zagolovok;
+    margin-left: 130px;
+}
+.messedg_text_pod_pod_zagolovok{
+    @extend %messedg_text_pod_pod_zagolovok;
+    margin-left: 190px;
+}
+.vtoroy_foto{
+    @extend %messedg; 
+    margin-left: 80px;
+}
+.text_zagolovok_2{
+    @extend %messedg_text_zagolovok;
+    margin-left: 190px;
+}
+.messedg_text_pod_zagolovok_2{
+    @extend %messedg_text_pod_zagolovok;
+    margin-left: 140px;
+}
+.messedg_text_pod_pod_zagolovok_2{
+    @extend %messedg_text_pod_pod_zagolovok;
+    margin-left: 190px;
+}
+.tretye_foto{
+    @extend %messedg; 
+    margin-left: 80px;
+}
+.text_zagolovok_3{
+    @extend %messedg_text_zagolovok;
+    margin-left: 190px;
+}
+.messedg_text_pod_zagolovok_3{
+    @extend %messedg_text_pod_zagolovok;
+    margin-left: 140px;
+}
+.messedg_text_pod_pod_zagolovok_3{
+    @extend %messedg_text_pod_pod_zagolovok;
+    margin-left: 190px;
+}
+.chetverty_foto{
+    @extend %messedg; 
+    margin-left: 80px;
+}
+.text_zagolovok_4{
+    @extend %messedg_text_zagolovok;
+    margin-left: 170px;
+}
+.messedg_text_pod_zagolovok_4{
+    @extend %messedg_text_pod_zagolovok;
+    margin-left: 140px;
+}
+.messedg_text_pod_pod_zagolovok_4{
+    @extend %messedg_text_pod_pod_zagolovok;
+    margin-left: 195px;
+}

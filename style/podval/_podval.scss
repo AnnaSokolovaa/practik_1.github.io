@@ -1,0 +1,123 @@
+.div_pdvala{
+    background-color: #272E38;
+    width: 1200px;
+    height: 617px;
+}
+.logo_v_nizu{
+    width: 128px;
+    height: 62px;
+    padding-top: 80px;
+    margin-left: 60px;
+}
+%text_podvala{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: $cvet_text_podval;
+    cursor: pointer;
+}
+%bolchoy_text_vnizu{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #9CA5B0;
+}
+._1_stolbec_text_podvala{
+    padding-top: 10px;
+    margin-left: -30px;
+}
+._2_stolbec_text_podvala{
+    margin-left: 200px;
+    margin-top: -239px;
+}
+.Home{
+    @extend %text_podvala;
+    margin-left: 380px;
+    margin-top: -70px;
+}
+.Products{
+    @extend %text_podvala;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.Features{
+    @extend %text_podvala;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.Private_by_Design{
+    @extend %text_podvala;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.Support{
+    @extend %text_podvala;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.Sitemap{
+    @extend %text_podvala;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.text_podval_sleva{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -239px;
+    margin-left: 800px;
+    color: #9CA5B0;
+}
+.Compare_Products_2{
+    width: 103px;
+    height: 40px;
+    line-height: 20px;
+    color: $dark-color;
+    cursor: pointer;
+    background-color:$bely;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 40%;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.div_podval_malenky{
+    border:1px solid #3D434C;
+    border-radius: 10%;
+    width: 250px;
+    height: 40px;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+.United_States{
+    color: $bely;
+    margin-top: 10px;
+    margin-left: 65px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+}
+.English{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #9CA5B0;
+    margin-top: -28px;
+    margin-left: 140px;
+}
+.bolchoy_text_vnizu_1{
+    @extend %bolchoy_text_vnizu;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+.bolchoy_text_vnizu_2{
+    @extend %bolchoy_text_vnizu;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.bolchoy_text_vnizu_3{
+    @extend %bolchoy_text_vnizu;
+    margin-left: 350px;
+    margin-top: 20px;
+}

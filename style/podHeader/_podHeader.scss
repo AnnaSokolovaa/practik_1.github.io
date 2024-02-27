@@ -1,0 +1,89 @@
+
+.privetstvennoe_foto{
+    width: 98vw;
+    position: relative;
+}
+.big_text_na_foto{
+    display : block;
+    position: relative;
+    color: $dark-color;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+    margin-top: -500px;
+    margin-left: 70px;
+}
+.text_pod_text_pod_foto{
+    display : block;
+    position: relative;
+    color: $menee-dark-color;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: -20px;
+    margin-left: 75px;
+}
+.Watch_the_Demo {
+    display : block;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 186px;
+    height: 46px;
+    line-height: 20px;
+    color: $dark-color;
+    cursor: pointer;
+    background-color: $bely;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 45%;
+  }
+.Compare_Portals{
+    display : block;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 250px;
+    width: 186px;
+    height: 46px;
+    line-height: 20px;
+    color: $dark-color;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 45%;
+}
+.pink{
+    background: #F1C0C7;
+    display : block;
+    position: relative;
+    width: 450px;
+    height: 86px;
+    margin-top: 130px;
+}
+.text_na_rozovom{
+    color: $dark-color;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    margin-left: 170px;
+    margin-top: -60px;
+}
+.Ship_to_multiple{
+    color: $dark-color;
+    cursor: pointer;
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 170px;
+    margin-top: -5px;
+}
+.tehnika{
+    width: 84px;
+    height: 54px;
+    margin-top: 20px;
+    margin-left: 75px;
+}

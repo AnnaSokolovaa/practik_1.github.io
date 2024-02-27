@@ -1,0 +1,49 @@
+.foto_s_ikonkami{
+    margin-top: -90px;
+    margin-left: 0px;
+}
+%ikonka{
+    width: 60px;
+    height: 60px;
+}
+.twitter_foto{
+    @extend %ikonka;
+    margin-left: 650px;
+    
+}
+.whatsap_foto{
+    padding-top: 30px;
+    @extend %ikonka;
+    margin-left: 750px;
+    padding-top: 50px;
+}
+.twitter_foto_2{
+    margin-top: -64px;
+}
+.Messenger_and_WhatsApp{
+    color: $dark-color;
+    font-weight: 400;
+    line-height: 55px;
+    font-size: 50px;
+    margin-left: 650px;
+    margin-top: -520px;
+}
+.tesssst{
+    margin-left: 0px;
+}
+.pod_Messenger_and_WhatsApp{
+    color: $sery;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 17px;
+    margin-left: 655px;
+    margin-top: 30px;
+}
+.Hey_Portal{
+    color:#AEABA8;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 11px;
+    margin-left: 655px;
+    margin-top: 30px;
+}
